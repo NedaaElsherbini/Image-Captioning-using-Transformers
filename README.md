@@ -51,7 +51,7 @@ This architecture balances computational efficiency with high-quality caption ge
 
 ## Results
 The model generates coherent captions for images in the test set, with performance evaluated using BLEU scores. Example output:
-![Web App Screenshot](https://github.com/NedaaElsherbini/Image-Captioning-using-Transformers/blob/master/Sample-results.png)
+![Web App Screenshot](https://github.com/NedaaElsherbini/Image-Captioning-using-Transformers/blob/main/Sample-results.png)
 
 - [Usage](#usage)
 ### Running the Streamlit App
