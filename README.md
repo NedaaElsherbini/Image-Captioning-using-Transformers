@@ -6,6 +6,7 @@
 - [Dataset](#dataset)
 - [Model Architecture](#model-architecture)
 - [Results](#results)
+- [Usage](#usage)
 
 ## Project Overview
 This project implements an image captioning model using a Transformer architecture combined with a pre-trained EfficientNetB0 CNN for feature extraction. Trained on the Flickr30k dataset, the model generates descriptive captions for images. A Streamlit web app allows users to upload images and view generated captions in a user-friendly interface.
@@ -53,7 +54,7 @@ This architecture balances computational efficiency with high-quality caption ge
 The model generates coherent captions for images in the test set, with performance evaluated using BLEU scores. Example output:
 ![Web App Screenshot](https://github.com/NedaaElsherbini/Image-Captioning-using-Transformers/blob/main/Sample-results.png)
 
-- [Usage](#usage)
+## Usage
 ### Running the Streamlit App
 1. Ensure the `model.keras` file is in the project directory.
 2. Launch the Streamlit app:
