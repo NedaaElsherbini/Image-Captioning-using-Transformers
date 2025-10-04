@@ -1,4 +1,6 @@
 # Image Captioning with Transformers
+Welcome to the Image Caption Generator Project! 🌟
+This project implements an image captioning model using a Transformer architecture combined with a pre-trained EfficientNetB0 CNN for feature extraction.
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -22,15 +24,6 @@ The model is trained on the **Flickr30k dataset**, which includes 31,000 images,
 - Caption normalization and length filtering (4 to 24 tokens).
 - Image resizing to 299x299 pixels.
 - Dataset splitting into training (20,915 samples), validation (5,124 samples), and test (105 samples) sets.
-
-## Usage
-### Running the Streamlit App
-1. Run the Streamlit app:
-   ```bash
-   streamlit run Image_captioning_deployment.py
-   ```
-2. Open the provided URL (e.g., `http://localhost:8501`) in your browser.
-3. Upload a JPG image to generate a caption.
 
 
 ## Model Architecture
