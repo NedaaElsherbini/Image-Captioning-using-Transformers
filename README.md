@@ -4,8 +4,7 @@
 - [Project Overview](#project-overview)
 - [Features](#features)
 - [Dataset](#dataset)
-- [Usage](#usage)
-- [Model Details](#model-details)
+- [Model Architecture](#model-architecture)
 - [Results](#results)
 
 ## Project Overview
@@ -33,7 +32,6 @@ The model is trained on the **Flickr30k dataset**, which includes 31,000 images,
 3. Upload a JPG image to generate a caption.
 
 
-## Model Archeticture
 ## Model Architecture
 The model integrates computer vision and natural language processing through a hybrid architecture:
 - **Encoder**:
@@ -51,4 +49,18 @@ The model integrates computer vision and natural language processing through a h
 
 This architecture balances computational efficiency with high-quality caption generation, leveraging EfficientNetB0's pre-trained weights and the Transformer's attention mechanisms.
 
+## Results
+The model generates coherent captions for images in the test set, with performance evaluated using BLEU scores. Example output:
+![Web App Screenshot](https://github.com/NedaaElsherbini/Image-Captioning-using-Transformers/blob/master/Sample-results.png)
+
+- [Usage](#usage)
+### Running the Streamlit App
+1. Ensure the `model.keras` file is in the project directory.
+2. Launch the Streamlit app:
+   ```bash
+   streamlit run Image_captioning_deployment.py
+   ```
+3. Open the provided URL (typically `http://localhost:8501`) in a web browser.
+4. Upload a JPG or JPEG image using the file uploader.
+5. View the generated caption displayed below the image.
 
